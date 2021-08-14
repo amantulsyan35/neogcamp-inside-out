@@ -7,7 +7,12 @@ export default function App() {
     "🤩": "Star-Struck",
     "😋": "Face Savoring Food",
     "🤫": "Shushing Face",
-    "🤔": "Thinking Face"
+    "🤔": "Thinking Face",
+    "🤪": "Zany Face",
+    "😛": "Face with Tongue",
+    "😔": "Pensive Face",
+    "🤢": "Nauseated Face",
+    "🥶": " Cold Face"
   };
 
   const emojiIcons = Object.keys(emojiDictionary);
@@ -30,7 +35,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>inside outtt</h1>
+      <h1>Inside Outtt</h1>
+      <img src="https://i.pinimg.com/originals/fc/64/65/fc6465b730eab5f372737a1a34cf6895.gif" />
       <input onChange={changeHandler} />
       <h3>{emoji}</h3>
       {emojiIcons.map((item) => {

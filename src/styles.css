@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+img {
+  height: 30%;
+  width: 30%;
+}
+
+input {
+  width: 70%;
+}
